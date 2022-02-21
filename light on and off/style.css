@@ -1,0 +1,43 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{
+    background-color: rgb(128, 51, 201);
+    position: relative;
+}
+
+.main-heading{
+    margin-top: 10%;
+position: absolute;
+left: 50%;
+transform: translate(-50% );    
+
+}
+
+
+/* .main-heading{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.main-heading h1{
+   color: yellow;
+   font-size: 50px;
+   font-weight: 500;
+
+}
+
+.main-heading img{
+    height: 200px;
+    width: 200px;
+}
+
+.btn{
+    color: aliceblue;
+    background-color: rgb(226, 196, 23);
+    padding: 10px 15px;
+    font-weight: 400;
+    border-radius: 10%;
+}

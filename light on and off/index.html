@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light on and off</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-heading">
+        <h1>Can you turn the light on?</h1>
+        <button class="btn" onclick="turnon()"> Turn the light On </button>
+        <img id="light" src="lightoff.png">
+        <button class="btn" onclick="turnoff()"> Turn the light off </button>
+    </div>
+
+    <script>
+     const light = document.getElementById('light');
+
+     const turnon = () => {
+         light.src = "lighton.png";
+     }
+
+     const turnoff = () => {
+         light.src = "lightoff.png"
+     }
+
+    </script>
+</body>
+</html>
